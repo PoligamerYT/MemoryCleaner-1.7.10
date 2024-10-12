@@ -1,0 +1,13 @@
+memorycleaner.config.show_message=Mostrar Mensaje de Limpieza
+memorycleaner.config.min_interval=Intervalo Mínimo
+memorycleaner.config.max_interval=Intervalo Máximo
+memorycleaner.config.force_clean_percentage=Porcentaje Mínimo de Uso de RAM para Forzar la Limpieza
+memorycleaner.config.min_idle_time=Tiempo de Inactividad Mínimo
+memorycleaner.config.clean_on_join=Limpiar Memoria al Unirse al Mundo
+memorycleaner.config.command_aliases=Alias del Comando
+memorycleaner.config.auto_cleanup=Habilitar Limpieza Automática
+memorycleaner.config.clean_on_init=Limpiar Memoria Durante el Inicio
+memorycleaner.config.auto_cleanup_tab=Limpieza Automática
+memorycleaner.gc.start=§a[MemoryCleaner] §fLimpiando la Memoria, ¡Esto Podría Causar Algo de Lag!
+memorycleaner.gc.end=§a[MemoryCleaner] §f¡Limpieza de Memoria Terminada!
+memorycleaner.f3.check=Segundos hasta la próxima limpieza de memoria:

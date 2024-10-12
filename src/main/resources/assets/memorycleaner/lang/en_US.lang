@@ -10,3 +10,4 @@ memorycleaner.config.clean_on_init=Clean Memory During Init
 memorycleaner.config.auto_cleanup_tab=Auto Cleanup
 memorycleaner.gc.start=§a[MemoryCleaner] §fCleaning memory, this might cause some lag!
 memorycleaner.gc.end=§a[MemoryCleaner] §fMemory cleaning finished!
+memorycleaner.f3.check=Seconds until the next memory clean:

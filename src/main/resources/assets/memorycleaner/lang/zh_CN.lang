@@ -10,3 +10,4 @@ memorycleaner.config.clean_on_init=游戏启动时清理内存
 memorycleaner.config.auto_cleanup_tab=内存自动清理
 memorycleaner.gc.start=§a[内存清理] §f正在清理内存，可能会导致卡顿！
 memorycleaner.gc.end=§a[内存清理] §f内存清理完成！
+memorycleaner.f3.check=距离下一次内存清理还有几秒:

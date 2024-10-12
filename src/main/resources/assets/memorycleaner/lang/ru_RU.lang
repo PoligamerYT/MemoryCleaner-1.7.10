@@ -10,3 +10,4 @@ memorycleaner.config.clean_on_init=Очистить память при запу
 memorycleaner.config.auto_cleanup_tab=Автоматическую очистку
 memorycleaner.gc.start=§a[Очиститель памяти] §fНачинаю очищать память, может немного лагать!
 memorycleaner.gc.end=§a[Очиститель памяти] §fОчистка памяти завершена.
+memorycleaner.f3.check=Секунды до следующей очистки памяти:

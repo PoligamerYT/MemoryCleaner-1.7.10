@@ -1,7 +1,7 @@
 package xyz.tcreopargh.memorycleaner;
 
 import net.minecraft.command.ICommandSender;
-import net.minecraftforge.server.command.TextComponentHelper;
+import net.minecraft.util.ChatComponentTranslation;
 
 public class CleanerThread implements Runnable {
 
@@ -18,17 +18,16 @@ public class CleanerThread implements Runnable {
     @Override
     public void run() {
         MemoryCleaner.logger.info("Memory cleaner thread started!");
-        if (sender != null && Configuration.showMessage) {
-            sender.sendMessage(TextComponentHelper.createComponentTranslation(sender, "memorycleaner.gc.start"));
+        if (sender != null && Config.showMessage) {
+            sender.addChatMessage(new ChatComponentTranslation("memorycleaner.gc.start"));
         }
         System.gc();
         try {
             Thread.sleep(1000L);
-        } catch (InterruptedException ignored) {
-        }
+        } catch (InterruptedException ignored) {}
         System.gc();
-        if (sender != null && Configuration.showMessage) {
-            sender.sendMessage(TextComponentHelper.createComponentTranslation(sender, "memorycleaner.gc.end"));
+        if (sender != null && Config.showMessage) {
+            sender.addChatMessage(new ChatComponentTranslation("memorycleaner.gc.end"));
         }
         MemoryCleaner.logger.info("Memory cleaner thread finished!");
     }

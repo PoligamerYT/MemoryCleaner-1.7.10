@@ -1,18 +1,21 @@
-[
-  {
-    "modid": "memorycleaner",
-    "name": "Memory Cleaner",
+{
+  "modListVersion": 2,
+  "modList": [{
+    "modid": "${modId}",
+    "name": "${modName}",
     "description": "A mod to free up your RAM.",
-    "version": "1.4",
-    "mcversion": "1.12.2",
-    "url": "",
+    "version": "${modVersion}",
+    "mcversion": "${minecraftVersion}",
+    "url": "https://github.com/PoligamerYT/MemoryCleaner-1.7.10",
     "updateUrl": "",
-    "authorList": [
-      "TCreopargh"
-    ],
+    "authorList": ["TCreopargh", "PoligamerYT"],
     "credits": "",
     "logoFile": "",
     "screenshots": [],
-    "dependencies": []
-  }
-]
+    "parent": "",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "useDependencyInformation": false
+  }]
+}
