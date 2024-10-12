@@ -2,7 +2,7 @@ CLIENT ONLY MOD
 
 
 
-This mod automatically calls System.gc() to free up your memory. Because explicit gc can freeze your game for a short period, the mod watches the player's movement and starts to clean up your RAM after the player stays idle for a while.
+This mod automatically calls System.gc() to free up your memory.
 
 The memory cleaning process also starts when your RAM usage goes above a certain percentage (configurable) or after a long period if none of the above conditions are met (also configurable).
 
